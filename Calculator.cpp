@@ -12,9 +12,9 @@ int main(){
 			break;
 			case '*': cout<<a*b<<endl;
 			break;
-			case '/': if(a != 0 && b != 0){cout<<a/b<<endl;}else{cout<<"Ne se deli na 0! Vuvedete nova funckiq!"<<endl;}
+			case '/': if(a != 0 && b != 0){cout<<a/b<<endl;}else{cout<<"You cannot divide by 0! Enter a new function!"<<endl;}
 			break;
-			default: cout<<"Vuvedete funckiq"<<endl;
+			default: cout<<"Enter a function"<<endl;
 			break;
 		}
 	}
